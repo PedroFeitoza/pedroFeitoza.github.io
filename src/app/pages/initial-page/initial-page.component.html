@@ -1,0 +1,6 @@
+<div class="box">
+  <img src="../../../assets/SuperMarket.svg" class="box__image">
+
+  <sm-login (menuChange)="onMenuChange($event)" class="box__form" *ngIf="menu === 'login'"></sm-login>
+  <sm-register (menuChange)="onMenuChange($event)" class="box__form" *ngIf="menu === 'register'"></sm-register>
+</div>

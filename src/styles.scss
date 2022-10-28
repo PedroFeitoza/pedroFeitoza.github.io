@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(89.56deg, #27004d 10.15%, rgba(14, 139, 100, 0.79) 97.49%);
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.rounded-inputs {
+  background: #ffffff;
+  border-radius: 40px;
+  font-family: "Arial";
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(14, 139, 100, 0.67);
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  background: #ffffff;
+  border-radius: 40px !important;
+  font-family: "Arial";
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(14, 139, 100, 0.67);
+}
+
+.mat-form-field-underline {
+  transform: scale3d(0.9, 1.0001, 29) !important;
+}

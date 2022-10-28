@@ -1,0 +1,19 @@
+<div class="header">
+<mat-icon (click)="changeMenu()" class="header__icon">keyboard_arrow_left</mat-icon>
+<h3 class="header__title">Register</h3>
+</div>
+<form class="form">
+  <mat-form-field class="form__input" appearance="fill">
+    <mat-label>Username</mat-label>
+    <input type="text" matInput [formControl]="emailFormControl" placeholder="Username">
+  </mat-form-field>
+
+  <mat-form-field class="form__input" appearance="fill">
+    <mat-label>Password</mat-label>
+    <input matInput placeholder="Password" type="password">
+  </mat-form-field>
+
+
+  <button mat-raised-button color="primary" class="form__button">REGISTER</button>
+
+</form>

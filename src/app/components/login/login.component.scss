@@ -1,0 +1,49 @@
+.title {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  &__input {
+    width: 343px;
+  }
+
+  &__label {
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #ffffff;
+  }
+
+  &__register {
+    color: blue;
+    cursor: pointer;
+  }
+
+  &__register:hover {
+    opacity: 70%;
+  }
+
+  &__button {
+    background-color: #60AB26;
+    width: 50%;
+    font-size: 24px;
+    font-weight: 100;
+    align-self: center;
+    margin-top: 50px;
+  }
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: 1; /* Firefox */
+}

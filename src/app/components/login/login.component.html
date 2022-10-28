@@ -1,0 +1,18 @@
+<h3 class="title">Login</h3>
+
+<form class="form">
+  <mat-form-field class="form__input" appearance="fill">
+    <mat-label>Username</mat-label>
+    <input type="text" matInput [formControl]="emailFormControl" placeholder="Username">
+  </mat-form-field>
+
+  <mat-form-field class="form__input" appearance="fill">
+    <mat-label>Password</mat-label>
+    <input matInput placeholder="Password" type="password">
+  </mat-form-field>
+
+  <mat-label class="form__label">Don't you have an account?<br><span class="form__register" (click)="changeMenu()">Register</span></mat-label>
+
+  <button mat-raised-button color="primary" class="form__button">SIGN-IN</button>
+
+</form>

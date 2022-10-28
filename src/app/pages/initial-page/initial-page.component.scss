@@ -1,0 +1,17 @@
+.box {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  &__image {
+    height: fit-content;
+    align-self: center;
+    max-width: 55rem;
+  }
+
+  &__form {
+    height: fit-content;
+    align-self: center;
+  }
+}
